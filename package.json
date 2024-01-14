@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "expo start --dev-client",
+    "eas-build-pre-install": "npm config set legacy-peer-deps true",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
@@ -9,7 +10,7 @@
   "dependencies": {
     "@eva-design/eva": "^2.0.0",
     "@react-native-async-storage/async-storage": "~1.17.3",
-    "@react-native-community/datetimepicker": "^6.5.2",
+    "@react-native-community/datetimepicker": "6.5.2",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/bottom-tabs": "^5.11.7",
     "@react-navigation/native": "^5.9.8",
@@ -18,7 +19,7 @@
     "@ui-kitten/components": "^5.0.0",
     "@ui-kitten/eva-icons": "^5.0.0",
     "@ui-kitten/moment": "^5.1.2",
-    "expo": "~47.0.12",
+    "expo": "~47.0.14",
     "expo-location": "~15.0.1",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
@@ -30,7 +31,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-moment": "^1.1.1",
-    "react-native": "0.70.5",
+    "react-native": "0.70.8",
     "react-native-countdown-component": "^2.7.1",
     "react-native-countdown-fixed": "^2.7.1",
     "react-native-dotenv": "^3.4.7",
@@ -44,7 +45,7 @@
     "react-native-safe-area-view": "^1.1.1",
     "react-native-screens": "~3.18.0",
     "react-native-status-bar-height": "^2.6.0",
-    "react-native-svg": "13.2.0",
+    "react-native-svg": "13.4.0",
     "react-native-svg-charts": "^5.4.0",
     "react-native-web": "~0.18.7",
     "tinycolor2": "^1.6.0",
